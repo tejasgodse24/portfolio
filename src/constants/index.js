@@ -38,6 +38,8 @@ of sale for regular users and also implemented custom coupon system.
 *Deployed website on AWS EC2 using Nginx Web Server and Ubuntu OS and Automated Deployment using 
 GitHub Actions.`,
     technologies: ["Django","Python", "Celery", "Celery Beat","Redis", "AWS EC2", "Nginx", "Github Actions", "HTML", "CSS", "JavaScript", "SQLite3"],
+    liveLink:"https://onlinebookstore.tech/",
+    githubLink:"https://github.com/tejasgodse24/BookStoreEcommerce"
   },
   
 ];
@@ -49,6 +51,8 @@ export const PROJECTS = [
     description:
       "Developed a Real-Time Chat Application using Django for backend and WebSocket for asynchronous communication. *Integrated chat features such as Private Messaging, and Chat Groups(Rooms). ",
     technologies: ["HTML", "CSS", "Bootstrap", "JavaScript" ,"Django", "Django Channels", "SQLite3"],
+    githubLink:"https://github.com/tejasgodse24/DjangoChatApp"
+
   },
   {
     title: "Authentication System",
@@ -56,6 +60,8 @@ export const PROJECTS = [
     description:
       "Developed User Authentication System featuring registration, login, logout, password change, and password reset functionalities.*Implemented secure password reset via email with unique tokenized links. *Built RESTful APIs using Django Rest Framework, used JWT for secure user authentication .",
     technologies: ["Django Rest Framework", "SQLite3."],
+    githubLink:"https://github.com/tejasgodse24/authentication_DRF_JWT"
+
   },
   
 ];
