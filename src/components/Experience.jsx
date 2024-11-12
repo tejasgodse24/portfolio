@@ -4,7 +4,7 @@ import { animate, motion } from 'framer-motion'
 
 const Experience = () => {
   return (
-    <div className='border-b border-neutral-900 pb-24'>
+    <div className='border-b border-neutral-900 pb-24' id='experience-section'>
       <motion.h2 
       initial={{y: -100, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}

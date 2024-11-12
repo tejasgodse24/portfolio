@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
  
 const Projects = () => {
   return (
-    <div className='border-b border-neutral-900 pb-24'>
+    <div className='border-b border-neutral-900 pb-24' id='projects-section'>
       <motion.h2 
       initial={{y: -100, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}

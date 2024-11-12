@@ -7,6 +7,8 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ExtraCurriculat from './components/ExtraCurriculat'
+import Education from './components/Education'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +27,8 @@ function App() {
         <Technologies />
         <Experience />
         <Projects />
+        <ExtraCurriculat />
+        <Education />
         <Contact />
         <Footer />
       </div>

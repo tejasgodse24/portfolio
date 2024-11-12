@@ -66,6 +66,83 @@ export const PROJECTS = [
   
 ];
 
+
+export const EXTRACURREXPERIENCES = [
+  {
+    year: "Nov 2021 - Mar 2023",
+    role: "Science Teacher",
+    company: "Vidya Classes (Private Tutions)",
+    description: `Taught Science Subject to 9th and 10th(SSC) students.
+    *Teaching is in Offline Mode.
+    *This part time work i have done during my 3rd and last year of engineering.`,
+  },
+  {
+    year: "Jul 2020 - May 2021",
+    role: "Mathematics Teacher ",
+    company: "Eureka Academy",
+    description: `Taught Maths Subject to 12th(HSC) students.
+    *Teaching is in Online Mode.
+    *This part time work i have done during my 2rd year of engineering.`,
+  },
+  {
+    year: "Jul 2020 - May 2021",
+    role: "NCC Air Wing",
+    company: "",
+    description: `During my second year of engineering, I had the privilege of joining the National Cadet Corps (NCC) Air Wing. This voluntary organization gave me a unique insight into the life and discipline of the armed forces.
+    *I had the exciting opportunity to fly in a lightweight trainer aircraft.
+    *This experience enriched my personal growth, offering a deeper understanding of teamwork, leadership, and commitment`,
+  },
+  
+];
+
+export const EDUCATION = [
+  {
+    year: "2019 - 2023",
+    courseName: "Bachelor of Technology",
+    collegeName: "Vishwakarma Institute of Information Technology, Pune",
+    fieldName:"Computer Engineering",
+    marks:" CGPA : 9.41 "
+  },
+  {
+    year: "2018 - 2019",
+    courseName: "12th HSC",
+    collegeName: "Laxmanrao Apte Junior College,  Pune ",
+    fieldName:"",
+    marks:"Percentage : 79.23 %"  
+  },
+  {
+    year: "2016 - 2017",
+    courseName: "10th SSC",
+    collegeName: "Ad. D. R. Nagarkar Prashala , Pune",
+    fieldName:"",
+    marks:"Percentage : 93.20 %"  
+  }
+  
+];
+export const NAVLINKS = [
+  {
+    "displayText": "Experience",
+    "id": "experience-section",
+    "isActive": false
+  },
+  {
+    "displayText": "Projects",
+    "id": "projects-section",
+    "isActive": false
+  },
+  {
+    "displayText": "Education",
+    "id": "education-section",
+    "isActive": false
+  },
+  {
+    "displayText": "Contact",
+    "id": "contact-section",
+    "isActive": false
+  }
+
+];
+
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
   phoneNo: "+91 9765851707",
