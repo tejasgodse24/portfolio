@@ -82,7 +82,7 @@ export const EXTRACURREXPERIENCES = [
     company: "Eureka Academy",
     description: `Taught Maths Subject to 12th(HSC) students.
     *Teaching is in Online Mode.
-    *This part time work i have done during my 2rd year of engineering.`,
+    *This part time work i have done during my 2nd year of engineering.`,
   },
   {
     year: "Jul 2020 - May 2021",

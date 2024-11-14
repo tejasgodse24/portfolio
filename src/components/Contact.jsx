@@ -46,7 +46,7 @@ const Contact = () => {
     initial={{y: -100, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 0.5}}
-      className='border-b border-neutral-900 pb-10'>
+      className='border-b border-neutral-900 py-10'>
       <h2 className='my-10 text-center text-5xl'>Contact</h2>
        <div className='flex w-full'>
        <form className="w-full flex flex-col justify-center items-center gap-4" onSubmit={handleSubmit}>
@@ -83,10 +83,12 @@ const Contact = () => {
         transition: Bounce
         />
       </div>
-        <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+        <div className='m-8 flex items-center justify-center gap-4 text-4xl'>
       <a href="https://www.linkedin.com/in/tejas-godse-141453191/" target='_blank'><FaLinkedin /></a>
        <a href="https://github.com/tejasgodse24" target='_blank'><FaGithub /></a>
-       <a href="https://x.com/Tejas_2_4?t=bKy_JpqPXBqCZeS90942Gg&s=09" target='_blank'><FaTwitterSquare /></a>
+       <a href="https://www.instagram.com/tejas_2_4/" target='_blank'><FaInstagram  /></a>
+
+       {/* <a href="https://x.com/Tejas_2_4?t=bKy_JpqPXBqCZeS90942Gg&s=09" target='_blank'><FaTwitterSquare /></a> */}
       </div>
      </motion.div>
    );

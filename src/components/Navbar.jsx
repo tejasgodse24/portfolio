@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from "../assets/kevinRushLogo.png"
 import {FaLink, FaLinkedin} from "react-icons/fa"
 import {FaGithub} from "react-icons/fa"
@@ -7,9 +7,24 @@ import {FaInstagram} from "react-icons/fa"
 import { motion, useScroll, useSpring } from "framer-motion";
 import { NAVLINKS } from '../constants'
 import { a } from 'framer-motion/client'
+import { MdOutlineMenu } from 'react-icons/md'
 
 
 const Navbar = () => {
+
+  const [activeLinkID, setActiveLinkId] = useState("")
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const handleLinkClick = (id)=>{
+    if(isMenuOpen){
+      toggleMenu();
+    }
+    setActiveLinkId(id);
+  }
+
+  const toggleMenu = ()=>{
+    setIsMenuOpen(!isMenuOpen)
+  }
 
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -17,34 +32,27 @@ const Navbar = () => {
     damping: 30,
     restDelta: 0.001
   });
-  // .progress-bar {
-  //   position: fixed;
-  //   top: 0;
-  //   left: 0;
-  //   right: 0;
-  //   height: 10px;
-  //   background: var(--red);
-  //   transform-origin: 0%;
-  // }
+
   
   return (
     <div className='fixed top-0 left-0 right-0 z-20 bg-gradient-to-r from-violet-950 to-violet-800'>
-      <div className='flex items-center justify-between px-8 py-3' >
+      <div className='flex items-center justify-between px-16 py-4' >
         <div className='flex flex-shrink-0 items-center'>
-          <span className='text-3xl font-semibold'>TG</span>
+          <a href='/' className='text-3xl font-semibold'>TG</a>
         </div>
-        <div className='flex flex-wrap gap-4 justify-center items-center text-base'>
+
+        <div className='flex flex-wrap gap-10 justify-center items-center md:hidden'>
+          <MdOutlineMenu onClick={toggleMenu} className='text-4xl cursor-pointer'/>
+        </div>
+
+        {/* <div className={`flex max-w-md:hidden flex-wrap gap-10 justify-center items-center text-base font-semibold`}> */}
+        <div className={`z-10 flex flex-col md:flex-row md:gap-10 justify-center items-center text-base font-semibold md:flex ${isMenuOpen ? 'absolute right-16 top-14 bg-gradient-to-r from-violet-950 to-violet-800 px-4 rounded-lg py-4 gap-5' : 'hidden'} md:block`}>
+          
           {NAVLINKS.map((link, index)=>(
-            <a  href={"#" + link.id} >{link.displayText}</a>
+            <a className={`${activeLinkID == link.id ? 'font-extrabold' : 'font-light'}`} onClick={()=>handleLinkClick(link.id)} href={"#" + link.id} >{link.displayText}</a>
           ))}
         </div>
-        <div className=' flex items-center justify-center gap-4 text-2xl'>
         
-          <a href="https://www.linkedin.com/in/tejas-godse-141453191/" target='_blank'><FaLinkedin /></a>
-          <a href="https://github.com/tejasgodse24" target='_blank'><FaGithub /></a>
-          <a href="https://x.com/Tejas_2_4?t=bKy_JpqPXBqCZeS90942Gg&s=09" target='_blank'><FaTwitterSquare /></a>
-
-        </div>
       </div>
       <motion.div className="h-1 bg-slate-200 origin-left" style={{ scaleX }} />
     </div>

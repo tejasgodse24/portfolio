@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { EDUCATION } from '../constants'
 const Education = () => {
     return (
-        <div className='border-b border-neutral-900 pb-24' id='education-section'>
+        <div className='border-b border-neutral-900 py-10' id='education-section'>
             <motion.h2 
           initial={{y: -100, opacity: 0}}
           whileInView={{y: 0, opacity: 1}}
