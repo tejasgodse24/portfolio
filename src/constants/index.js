@@ -2,9 +2,11 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import chat_app from "../assets/projects/chat_app.png";
 
 
-export const HERO_CONTENT = `Full-stack developer passionate about creating seamless, high-performance web applications. Experienced in backend and frontend technologies, deployment, and core programming skills to drive innovative projects.`;
+
+export const HERO_CONTENT = `Software developer passionate about creating seamless, high-performance web applications. Experienced in backend and frontend technologies, deployment, and core programming skills to drive innovative projects.`;
 
 
 
@@ -16,7 +18,7 @@ export const EXPERIENCES = [
     year: "May 2024 - Present",
     role: "Software Developer Intern",
     company: "Cloud9 e-biz Pvt Ltd",
-    description: `Maintained and Integrated backend solutions for mobile and web platforms which includes custom Service Desk SaaS application, enhancing system efficiency and improving user response times by 30%. 
+    description: `Designed and implemented a Single Sign-On (SSO) system from scratch, integrating it with multiple systems.*Maintained and Integrated backend solutions for mobile and web platforms which includes custom Service Desk SaaS application, enhancing system efficiency and improving user response times by 30%. 
 *Built robust APIs and numerous complex stored procedures, reducing data retrieval times by up to 25%.  
 *Enabled efficient migration of datasets across multiple databases by writing SQL scripts and stored procedures, 
 ensuring data integrity and reducing manual data verification.  
@@ -47,7 +49,7 @@ GitHub Actions.`,
 export const PROJECTS = [
   {
     title: "Real Time Chat Application ",
-    image: project1,
+    image: chat_app,
     description:
       "Developed a Real-Time Chat Application using Django for backend and WebSocket for asynchronous communication. *Integrated chat features such as Private Messaging, and Chat Groups(Rooms). ",
     technologies: ["HTML", "CSS", "Bootstrap", "JavaScript" ,"Django", "Django Channels", "SQLite3"],

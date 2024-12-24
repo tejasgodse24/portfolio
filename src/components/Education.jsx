@@ -34,7 +34,7 @@ const Education = () => {
                         {education.collegeName} 
                         <div className='text-xl text-purple-400'>{education.marks}</div>
                      </h6>
-                     <span className='absolute -top-4 -left-4 z-20 text-6xl text-purple-300'>&#8226;</span>
+                     <span className='absolute -top-4 -left-4 z-10 text-6xl text-purple-300'>&#8226;</span>
                      {/* <span className='absolute top-0 left-0 z-20 text-3xl'><BiSolidHandRight /></span> */}
 
                       
