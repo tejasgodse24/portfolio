@@ -48,6 +48,14 @@ GitHub Actions.`,
 
 export const PROJECTS = [
   {
+    title: "Multiplayer Chess Game",
+    image: chat_app,
+    description:
+      "Developed a Multiplayer Chess Game allowing users to play chess in real time *Implemented Social Authentication using Sign In With Google. *Ensured game state persistence to handle accidental page refreshes without disrupting the gameplay",
+    technologies: ["Django", "Django Channels", "Django Rest Framework", "SQLite3"],
+    githubLink:"https://github.com/tejasgodse24/MultiPlayerChessApp"
+  },
+  {
     title: "Real Time Chat Application ",
     image: chat_app,
     description:

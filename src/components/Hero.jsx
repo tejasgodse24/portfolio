@@ -43,7 +43,7 @@ const Hero = () => {
             <div className="flex w-full justify-center">
                 <a
                 className="cursor-pointer my-4 bg-gradient-to-r from-purple-900 to-purple-500 px-4 py-4 rounded-md text-white transition-all duration-300 ease-in-out transform hover:from-purple-700 hover:to-purple-400 hover:shadow-lg"
-                href="https://drive.google.com/file/d/1MnvpoBN3G6g1bqY4ys-ybjDgSh7lEjfg/view?usp=sharing"
+                href="https://drive.google.com/file/d/1YvwjI14XeeGKGPxRicalZEBYYCH1Risq/view?usp=sharing"
                 target="_blank"
                 >
                 Download Resume
