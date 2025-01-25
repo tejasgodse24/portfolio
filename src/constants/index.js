@@ -16,7 +16,7 @@ export const ABOUT_TEXT = `I am a passionate full stack developer specialised in
 export const EXPERIENCES = [
   {
     year: "May 2024 - Present",
-    role: "Software Developer Intern",
+    role: "Software Developer",
     company: "Cloud9 e-biz Pvt Ltd",
     description: `Designed and implemented a Single Sign-On (SSO) system from scratch, integrating it with multiple systems.*Maintained and Integrated backend solutions for mobile and web platforms which includes custom Service Desk SaaS application, enhancing system efficiency and improving user response times by 30%. 
 *Built robust APIs and numerous complex stored procedures, reducing data retrieval times by up to 25%.  
