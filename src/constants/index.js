@@ -27,7 +27,7 @@ ensuring data integrity and reducing manual data verification.
     technologies: ["SQL Server", ".NET Framework", ".NET Web Api"],
   },
   {
-    year: "Nov 2023 - Feb 2024",
+    year: "May 2023 - April 2024",
     role: "Freelance Web Developer",
     company: "Local Book Shop Owner",
     description: `Successfully deployed Fully Functional E-commerce Website for purchasing local books. 
