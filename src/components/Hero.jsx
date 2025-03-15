@@ -2,6 +2,8 @@ import React from 'react'
 import {HERO_CONTENT} from "../constants"
 import profilePic from "../assets/TejasProfile.png"
 import { motion } from "framer-motion"
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { SiLeetcode } from 'react-icons/si'
 
 const container = (delay) => ({
     hidden: {x: -100, opacity: 0},
@@ -40,10 +42,16 @@ const Hero = () => {
             </motion.p>
 
            
-            <div className="flex w-full justify-center">
+            <div className="flex w-full justify-between px-8">
+              <div className='flex items-center justify-center gap-8 text-4xl'>
+                    <a href="https://www.linkedin.com/in/tejas-godse-141453191/" target='_blank'><FaLinkedin /></a>
+                     <a href="https://github.com/tejasgodse24" target='_blank'><FaGithub /></a>
+                     <a href="https://leetcode.com/TejasGodse/" target='_blank'><SiLeetcode  /></a>
+                    </div>
+
                 <a
-                className="cursor-pointer my-4 bg-gradient-to-r from-purple-900 to-purple-500 px-4 py-4 rounded-md text-white transition-all duration-300 ease-in-out transform hover:from-purple-700 hover:to-purple-400 hover:shadow-lg"
-                href="https://drive.google.com/file/d/1W0Ra92Fu-2we_zAsJ-59lIekqy7kxxwf/view?usp=sharing"
+                className="cursor-pointer my-4 bg-gradient-to-r from-purple-900 to-purple-500 px-4 py-4 rounded-md text-white font-normal text-xl transition-all duration-300 ease-in-out transform hover:from-purple-700 hover:to-purple-400 hover:shadow-lg"
+                href="https://imgcompress-bkt.s3.ap-south-1.amazonaws.com/personal/Resume.pdf"
                 target="_blank"
                 >
                 Download Resume

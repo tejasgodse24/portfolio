@@ -8,6 +8,7 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { motion } from 'framer-motion'
+import { SiLeetcode } from 'react-icons/si'
 
 const Contact = () => {
   const notify = () => toast("Message Sent Successfully !"
@@ -86,7 +87,8 @@ const Contact = () => {
         <div className='m-8 flex items-center justify-center gap-4 text-4xl'>
       <a href="https://www.linkedin.com/in/tejas-godse-141453191/" target='_blank'><FaLinkedin /></a>
        <a href="https://github.com/tejasgodse24" target='_blank'><FaGithub /></a>
-       <a href="https://www.instagram.com/tejas_2_4/" target='_blank'><FaInstagram  /></a>
+       <a href="https://leetcode.com/TejasGodse/" target='_blank'><SiLeetcode  /></a>
+
 
        {/* <a href="https://x.com/Tejas_2_4?t=bKy_JpqPXBqCZeS90942Gg&s=09" target='_blank'><FaTwitterSquare /></a> */}
       </div>

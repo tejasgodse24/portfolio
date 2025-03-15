@@ -18,8 +18,8 @@ const Experience = () => {
                         initial={{x: -100, opacity: 0}}
                         whileInView={{x: 0, opacity: 1}}
                         transition={{duration: 1}}
-                        className='w-full lg:w-1/4'>
-                        <p className='my-2 text-base text-neutral-400'>{experience.year}</p>
+                        className='w-full lg:w-1/4 text-center'>
+                        <p className='my-2 text-base text-neutral-300'>{experience.year}</p>
                     </motion.div>
                     <motion.div
                         initial={{x: 100, opacity: 0}}
@@ -31,8 +31,9 @@ const Experience = () => {
                         <span className='text-base text-purple-100'>{experience.company}</span>
                      </h6>
                      <div className='flex justify-start items-center text-sm'>
-                      {experience.liveLink && <a className='cursor-pointer mb-4 bg-gradient-to-r from-purple-900 to-purple-500 px-4 py-1 rounded-md text-white transition-all duration-300 ease-in-out transform hover:from-purple-700 hover:to-purple-400 hover:shadow-lg' href={experience.liveLink} target='_blank'>Live Link</a>}
-                      {experience.githubLink && <a className='mx-8 cursor-pointer mb-4  bg-gradient-to-r from-purple-900 to-purple-500 px-4 py-1 rounded-md text-white transition-all duration-300 ease-in-out transform hover:from-purple-700 hover:to-purple-400 hover:shadow-lg' href={experience.githubLink} target='_blank'>GitHub Link</a>}
+                      {experience.liveLink && <a className='cursor-pointer mb-4 bg-gradient-to-r from-green-900 to-green-600 px-4 py-1 rounded-md text-white font-semibold transition-all duration-300 ease-in-out transform hover:from-green-700 hover:to-green-400 hover:shadow-lg' href={experience.liveLink} target='_blank'>Live Link</a>}
+                      {/* {experience.githubLink && <a className='mx-8 cursor-pointer mb-4  bg-gradient-to-r from-purple-900 to-purple-500 px-4 py-1 rounded-md text-white transition-all duration-300 ease-in-out transform hover:from-purple-700 hover:to-purple-400 hover:shadow-lg' href={experience.githubLink} target='_blank'>GitHub Link</a>} */}
+                      {experience.githubLink && <a className='mx-8 cursor-pointer mb-4  bg-gradient-to-r from-neutral-50 to-neutral-300 px-4 py-1 rounded-md text-purple-600 font-extrabold  transition-all duration-300 ease-in-out transform hover:from-purple-700 hover:to-purple-400 hover:text-neutral-100 hover:shadow-lg' href={experience.githubLink} target='_blank'>GitHub Link</a>}
 
                      </div>
                      {/* <p className='mb-4 text-neutral-400'>{experience.description}</p> */}

@@ -27,8 +27,8 @@ function App() {
         <Technologies />
         <Experience />
         <Projects />
-        <ExtraCurriculat />
         <Education />
+        <ExtraCurriculat />
         <Contact />
         <Footer />
       </div>

@@ -18,6 +18,8 @@ import jqueryLogo from "../assets/technologies/jquery.svg"
 import nginxLogo from "../assets/technologies/nginx.svg"
 import sqlLogo from "../assets/technologies/sql.svg"
 import reactLogo from "../assets/technologies/react.svg"
+import cppLogo from "../assets/technologies/cpp.svg"
+
 
 
 
@@ -152,9 +154,9 @@ const Technologies = () => {
         initial="initial"
         animate="animate"
         className='rounded-2xl bg-slate-300  border-4 border-neutral-800 p-4'>
-            {/* <SiHostinger className='text-7xl text-cyan-400' /> */}
-            <img src={hostingerLogo} alt="" width={70} height={70} />
-
+            {/* <img src={hostingerLogo} alt="" width={70} height={70} /> */}
+            <img src={cppLogo} alt="" width={70} height={70} />
+            
         </motion.div>
 
         <motion.div 

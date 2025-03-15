@@ -6,11 +6,13 @@ import chat_app from "../assets/projects/chat_app.png";
 
 
 
-export const HERO_CONTENT = `Software developer passionate about creating seamless, high-performance web applications. Experienced in backend and frontend technologies, deployment, and core programming skills to drive innovative projects.`;
+// export const HERO_CONTENT = `Software developer passionate about creating seamless, high-performance Software Solutions. Experienced in backend and frontend technologies, deployment, and core programming skills to drive innovative projects.`;
+
+export const HERO_CONTENT =  "Experienced software developer skilled in Fullstack Software Development with a proven track record of delivering quality code. Dedicated to achieving goals, becoming a proficient Software Developer, and continually expanding skills through a passion for learning."
 
 
 
-export const ABOUT_TEXT = `I am a passionate full stack developer specialised in crafting seamless web applications. With 1 years of hands-on experience, Some skills on which i have worked through my different projects are Backend Development (Django, Django Rest Framework, Python, SQL Server), Frontend development (ReactJS, HTML, CSS, JavaScript, JQuery), Deployment(AWS EC2, Hostinger's VPS, Nginx, Github Actions,) and others are  OOP , Data Structures and Algorithms (Python). I am Committed to continuous learning and staying up-to-date with emerging technologies. Eager to contribute my skills and passion to a dynamic team and drive innovative projects.`;
+export const ABOUT_TEXT = `I am a passionate full stack developer specialised in crafting seamless software applications. With more than 1 years of hands-on experience, Some skills on which i have worked through my different projects are Backend Development (Django, Django Rest Framework, Python, SQL Server, Celery, ASP.NET, .NET Web API), Frontend development (ReactJS, HTML, CSS, JavaScript, JQuery), Deployment(AWS EC2, Hostinger's VPS, Nginx, Github Actions, AWS S3) and others are  OOP , Data Structures and Algorithms (C++). I am Committed to continuous learning and staying up-to-date with emerging technologies. Eager to contribute my skills and passion to a dynamic team and drive innovative projects.`;
 
 
 export const EXPERIENCES = [
@@ -48,14 +50,26 @@ GitHub Actions.`,
 
 export const PROJECTS = [
   {
+    index: 1,
     title: "Multiplayer Chess Game",
     image: chat_app,
     description:
-      "Developed a Multiplayer Chess Game allowing users to play chess in real time *Implemented Social Authentication using Sign In With Google. *Ensured game state persistence to handle accidental page refreshes without disrupting the gameplay",
-    technologies: ["Django", "Django Channels", "Django Rest Framework", "SQLite3"],
+      "Developed a Multiplayer Chess Game allowing users to play chess in real time *Implemented Social Authentication using Sign In With Google. *Ensured game state persistence to handle accidental page refreshes or netweork disconnection without disrupting the gameplay *Spectator mode for users just to watch ongoing games as viewers. *Enabled move highlights and Integrated a timer for each player's move, ensuring fair gameplay.",
+    technologies: ["Django", "Django Channels", "Django Rest Framework", "SQLite3", "ReactJS"],
     githubLink:"https://github.com/tejasgodse24/MultiPlayerChessApp"
   },
   {
+    index: 2,
+    title: "Image Compression System",
+    image: project2,
+    description:
+      "Developed Asynchronous Image Processing System that compresses images from a CSV file. *Designed REST APIs for CSV upload, processing status tracking, and result retrieval. *Implemented Celery with Redis for background image compression tasks. *Stored processed images and output csv in AWS S3 and maintained metadata in database. *Integrated webhooks for real-time notifications upon processing completion. *APIs and Image Compression Celery Service both are deployed on AWS EC2 using Nginx and Gunicorn and static and media files are served from AWS S3.",
+    technologies: ["Python", "Django Rest Framework", "SQLite3", "Celery", "AWS S3", "AWS EC2", "Nginx","Gunicorn"],
+    liveLink:"https://www.postman.com/research-saganist-31972975/workspace/public-workspace/collection/31971917-a987b618-0bff-4508-953a-47443ff2c1a8?action=share&creator=31971917",
+    githubLink:"https://github.com/tejasgodse24/image_compression"
+  },
+  {
+    index: 3,
     title: "Real Time Chat Application ",
     image: chat_app,
     description:
@@ -64,15 +78,16 @@ export const PROJECTS = [
     githubLink:"https://github.com/tejasgodse24/DjangoChatApp"
 
   },
-  {
-    title: "Authentication System",
-    image: project2,
-    description:
-      "Developed User Authentication System featuring registration, login, logout, password change, and password reset functionalities.*Implemented secure password reset via email with unique tokenized links. *Built RESTful APIs using Django Rest Framework, used JWT for secure user authentication .",
-    technologies: ["Django Rest Framework", "SQLite3."],
-    githubLink:"https://github.com/tejasgodse24/authentication_DRF_JWT"
+  // {
+    // index: 4,
+  //   title: "Authentication System",
+  //   image: project2,
+  //   description:
+  //     "Developed User Authentication System featuring registration, login, logout, password change, and password reset functionalities.*Implemented secure password reset via email with unique tokenized links. *Built RESTful APIs using Django Rest Framework, used JWT for secure user authentication .",
+  //   technologies: ["Django Rest Framework", "SQLite3."],
+  //   githubLink:"https://github.com/tejasgodse24/authentication_DRF_JWT"
 
-  },
+  // },
   
 ];
 
@@ -133,22 +148,26 @@ export const NAVLINKS = [
   {
     "displayText": "Experience",
     "id": "experience-section",
-    "isActive": false
+    "isActive": false,
+    "key": 1
   },
   {
     "displayText": "Projects",
     "id": "projects-section",
-    "isActive": false
+    "isActive": false,
+    "key": 2
   },
   {
     "displayText": "Education",
     "id": "education-section",
-    "isActive": false
+    "isActive": false,
+    "key": 3
   },
   {
     "displayText": "Contact",
     "id": "contact-section",
-    "isActive": false
+    "isActive": false,
+    "key": 4
   }
 
 ];
