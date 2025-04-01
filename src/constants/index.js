@@ -54,10 +54,11 @@ export const PROJECTS = [
     title: "Multiplayer Chess Game",
     image: chat_app,
     description:
-      "Developed a Multiplayer Chess Game allowing users to play chess in real time *Implemented Social Authentication using Sign In With Google. *Ensured game state persistence to handle accidental page refreshes or netweork disconnection without disrupting the gameplay *Spectator mode for users just to watch ongoing games as viewers. *Enabled move highlights and Integrated a timer for each player's move, ensuring fair gameplay.",
-    technologies: ["Django", "Django Channels", "Django Rest Framework", "SQLite3", "ReactJS"],
+      "Developed a Multiplayer Chess Game allowing users to play in real time. *Implemented Social Authentication using Sign In With Google. *Ensured game state persistence to handle accidental page refreshes or netweork disconnection without disrupting the gameplay *Spectator mode for users just to watch ongoing games as viewers. *Enabled move highlights and Integrated a timer for each player's move, ensuring fair gameplay. *Game state recovery after reconnection of user is also done. *Added a single-player mode, where a BOT plays as the opponent using Stockfish(Chess Engine). ",
+    technologies: ["Python", "Django Channels", "Django Rest Framework", "SQLite3", "ReactJS", "AWS EC2", "Nginx", "Daphne"],
+    liveLink:"https://chessgame.tejasgodse.tech/",
     githubLink:"https://github.com/tejasgodse24/MultiPlayerChessApp"
-  },
+  },   
   {
     index: 2,
     title: "Image Compression System",
