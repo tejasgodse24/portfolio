@@ -20,15 +20,17 @@ export const EXPERIENCES = [
     year: "Jun 2025 - Present",
     role: "Junior Python Developer",
     company: "Vibtree",
-    description: `Integrated Stripe Billing API for dynamic plan and price creation, autopay and subscription lifecycle management.
-*Refactored the backend to FastAPI, improving performance and modularity across microservices.
-*Designed and maintained REST APIs for Voice AI SaaS platform.
-*Built RAG-enabled retrieval systems using LlamaIndex and Pinecone for contextual knowledge grounding.
-*Integrated multiple external platforms like Cal.com into system, enabling scheduling and meeting automation.
-*Configured and deployed multiple FastAPI microservices on AWS EC2 with Nginx and Uvicorn ASGI server.
-*Developed a React.js-based web application using LiveKit React SDK to enable real-time communication and voice agent interaction.
-*Docker & CI/CD: Containerized applications with Docker and implemented automated CI/CD pipelines using GitHub Actions
-*Tech Stack: Python, FastAPI, Django, Django Rest Framework, PostgreSQL, ReactJS, Docker, GitHub Actions`,
+    description: `Designed and maintained REST APIs for Voice AI SaaS platform. 
+* Integrated Stripe Billing API for dynamic plan and price creation, autopay and subscription lifecycle management. 
+* Refactored the backend to FastAPI, improving performance and modularity across microservices.  
+* Built RAG-enabled retrieval systems using LlamaIndex and Pinecone for contextual knowledge grounding. 
+* Integrated multiple external platforms like Cal.com, N8N, Telnyx etc into the product. 
+* Developed and Deployed multiple FastAPI microservices on AWS EC2 with Nginx and Uvicorn Server. 
+* Developed a React.js-based web application using React SDK to enable real-time communication and voice agent 
+interaction. 
+* Docker & CI/CD: Containerized applications with Docker and implemented automated CI/CD pipelines using 
+GitHub Actions 
+* Tech Stack: Python, FastAPI, Django, Django Rest Framework, PostgreSQL, ReactJS, Docker, GitHub Actions `,
     technologies: ["Python", "FastAPI", "Django", "Django Rest Framework", "PostgreSQL", "ReactJS", "Docker", "GitHub Actions"],
   },
   {
@@ -57,7 +59,7 @@ of sale for regular users and also implemented custom coupon system.
 *Deployed website on AWS EC2 using Nginx Web Server and Ubuntu OS and Automated Deployment using 
 GitHub Actions.`,
     technologies: ["Django","Python", "Celery", "Celery Beat","Redis", "AWS EC2", "Nginx", "Github Actions", "HTML", "CSS", "JavaScript", "SQLite3"],
-    liveLink:"https://onlinebookstore.tech/",
+    liveLink:"https://bookstore.tejasgodse.tech/",
     githubLink:"https://github.com/tejasgodse24/BookStoreEcommerce"
   },
   
