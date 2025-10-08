@@ -8,13 +8,11 @@ import chat_app from "../assets/projects/chat_app.png";
 
 // export const HERO_CONTENT = `Software developer passionate about creating seamless, high-performance Software Solutions. Experienced in backend and frontend technologies, deployment, and core programming skills to drive innovative projects.`;
 
-export const HERO_CONTENT =  "Experienced software developer skilled in Fullstack Software Development with a proven track record of delivering quality code. Dedicated to achieving goals, becoming a proficient Software Developer, and continually expanding skills through a passion for learning."
+export const HERO_CONTENT =  "Backend engineer passionate about designing reliable systems and integrating AI into real-world products, Dedicated to achieving goals, Becoming a proficient Software Developer, and continually expanding skills through a passion for learning."
 
+// export const ABOUT_TEXT = `I am a passionate full stack developer specialised in crafting seamless software applications. With almost 2 years of hands-on experience, Some skills on which i have worked through my different projects are Backend Development (Django, Django Rest Framework, Python, SQL Server, Celery, ASP.NET, .NET Web API), Frontend development (ReactJS, HTML, CSS, JavaScript, JQuery), Deployment(AWS EC2, Hostinger's VPS, Nginx, Github Actions, AWS S3) and others are  OOP , Data Structures and Algorithms (C++). I am Committed to continuous learning and staying up-to-date with emerging technologies. Eager to contribute my skills and passion to a dynamic team and drive innovative projects.`;
 
-
-export const ABOUT_TEXT = `I am a passionate full stack developer specialised in crafting seamless software applications. With almost 2 years of hands-on experience, Some skills on which i have worked through my different projects are Backend Development (Django, Django Rest Framework, Python, SQL Server, Celery, ASP.NET, .NET Web API), Frontend development (ReactJS, HTML, CSS, JavaScript, JQuery), Deployment(AWS EC2, Hostinger's VPS, Nginx, Github Actions, AWS S3) and others are  OOP , Data Structures and Algorithms (C++). I am Committed to continuous learning and staying up-to-date with emerging technologies. Eager to contribute my skills and passion to a dynamic team and drive innovative projects.`;
-
-
+export const ABOUT_TEXT = `I’m a full-stack and AI-driven software developer passionate about building scalable, intuitive, and intelligent applications. I’ve worked across the stack — designing REST APIs, backend architectures, and interactive frontends with React. My experience spans FastAPI, Django, .NET, React, and PostgreSQL, along with deployment and automation using Docker, AWS, and GitHub Actions. I’ve also maintained Voice AI SaaS platforms, RAG-enabled retrieval systems, and integrated Stripe billing, external APIs, and CI/CD pipelines. I enjoy creating efficient, reliable, and real-time production-ready solutions that blend backend engineering, AI, and automation to deliver great end-to-end user experiences.`
 export const EXPERIENCES = [
   {
     year: "Jun 2025 - Present",
