@@ -18,30 +18,37 @@ export const EXPERIENCES = [
     year: "Jun 2025 - Present",
     role: "Junior Python Developer",
     company: "Vibtree",
-    description: `Designed and maintained REST APIs for Voice AI SaaS platform. 
-* Integrated Stripe Billing API for dynamic plan and price creation, autopay and subscription lifecycle management. 
-* Refactored the backend to FastAPI, improving performance and modularity across microservices.  
-* Built RAG-enabled retrieval systems using LlamaIndex and Pinecone for contextual knowledge grounding. 
-* Integrated multiple external platforms like Cal.com, N8N, Telnyx etc into the product. 
-* Developed and Deployed multiple FastAPI microservices on AWS EC2 with Nginx and Uvicorn Server. 
-* Developed a React.js-based web application using React SDK to enable real-time communication and voice agent 
-interaction. 
-* Docker & CI/CD: Containerized applications with Docker and implemented automated CI/CD pipelines using 
-GitHub Actions 
-* Tech Stack: Python, FastAPI, Django, Django Rest Framework, PostgreSQL, ReactJS, Docker, GitHub Actions `,
-    technologies: ["Python", "FastAPI", "Django", "Django Rest Framework", "PostgreSQL", "ReactJS", "Docker", "GitHub Actions"],
+    description: `Designed and maintained REST APIs for Voice AI SaaS platform.
+*	Integrated Stripe Billing API for dynamic plan and price creation, autopay and subscription lifecycle management.
+*	Refactored the backend to FastAPI, improving performance and modularity across microservices. 
+*	Developed RAG-enabled AI retrieval systems with LlamaIndex and Pinecone for context-aware knowledge grounding in voice applications.
+*	Developed voice intelligence pipelines with LiveKit, Deepgram (STT), ElevenLabs (TTS), and OpenAI GPT-4o-mini, enabling natural, real-time conversational AI experiences. 
+*	Integrated multiple external platforms like Cal.com, N8N, Telnyx etc for automated workflows.
+*	Developed and deployed multiple FastAPI microservices on AWS EC2, with Nginx, Uvicorn, and Dockerized CI/CD pipelines using GitHub Actions.
+*	Developed Web App using Livekit SDK(ReactJS) to enable real-time communication and voice agent interaction.
+`,
+    technologies: ["Python", "FastAPI", "Django", "Django Rest Framework", "Celery", "PostgreSQL", "ReactJS", "Docker", "GitHub Actions", "Livekit", "Pinecone", "LlamaIndex" ],
   },
   {
     year: "May 2024 - May 2025",
     role: "Software Developer",
     company: "Cloud9 e-biz Pvt Ltd",
-    description: `Designed and implemented a Single Sign-On (SSO) system from scratch, integrating it with multiple systems.*Integrated Bold Reports Embedding Service into ASP.NET MVC application, enabling dynamic report rendering.*Maintained and Integrated backend solutions for mobile and web platforms which includes custom Service Desk SaaS application, enhancing system efficiency and improving user response times by 30%. 
-*Built robust APIs and numerous complex stored procedures, reducing data retrieval times by up to 25%.  
-*Enabled efficient migration of datasets across multiple databases by writing SQL scripts and stored procedures, 
-ensuring data integrity and reducing manual data verification.  
-*Developed a Virtual Attendance Tracking system and Location Dashboard for mobile app users. 
-*Migrated platform to new version of Firebase Notification System, resulting in faster and more reliable notifications`,
-    technologies: ["SQL Server", ".NET Framework", ".NET Web Api"],
+//     description: `Designed and implemented a Single Sign-On (SSO) system from scratch, integrating it with multiple systems.*Integrated Bold Reports Embedding Service into ASP.NET MVC application, enabling dynamic report rendering.*Maintained and Integrated backend solutions for mobile and web platforms which includes custom Service Desk SaaS application, enhancing system efficiency and improving user response times by 30%. 
+// *Built robust APIs and numerous complex stored procedures, reducing data retrieval times by up to 25%.  
+// *Enabled efficient migration of datasets across multiple databases by writing SQL scripts and stored procedures, 
+// ensuring data integrity and reducing manual data verification.  
+// *Developed a Virtual Attendance Tracking system and Location Dashboard for mobile app users. 
+// *Migrated platform to new version of Firebase Notification System, resulting in faster and more reliable notifications`,
+description:`Designed and implemented a Single Sign-On (SSO) system from scratch, integrating it with multiple systems.
+*	Integrated Bold Reports Embedding Service into application, enabling dynamic report rendering.
+*	Maintained and Integrated backend solutions for mobile and web platforms which includes custom Service Desk SaaS application, enhancing system efficiency and improving user response times by 30%.
+*	Built APIs and numerous complex stored procedures, reducing data retrieval times by up to 25%. 
+*	Enabled efficient migration of datasets across multiple databases by writing SQL Scripts and stored procedures, ensuring data integrity and reducing manual data verification. 
+*	Developed a Virtual Attendance Tracking system and Location Dashboard for mobile app users.
+*	Migrated platform to new version of Firebase Notification System, resulting in faster and more reliable notifications
+*	Tech Stack : Python, Django, Django Rest Framework, SQL Server, HTML, CSS, JavaScript, jQuery. 
+`,
+    technologies: ["Python", "Django", "Django Rest Framework", "Celery", "SQL Server", "HTML", "CSS", "JavaScript", "jQuery"],
   },
   {
     year: "May 2023 - April 2024",
