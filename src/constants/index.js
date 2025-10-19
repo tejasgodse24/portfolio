@@ -45,15 +45,14 @@ description:`Designed and implemented a Single Sign-On (SSO) system from scratch
 *	Built APIs and numerous complex stored procedures, reducing data retrieval times by up to 25%. 
 *	Enabled efficient migration of datasets across multiple databases by writing SQL Scripts and stored procedures, ensuring data integrity and reducing manual data verification. 
 *	Developed a Virtual Attendance Tracking system and Location Dashboard for mobile app users.
-*	Migrated platform to new version of Firebase Notification System, resulting in faster and more reliable notifications
-*	Tech Stack : Python, Django, Django Rest Framework, SQL Server, HTML, CSS, JavaScript, jQuery. 
+*	Migrated platform to new version of Firebase Notification System, resulting in faster and more reliable notifications 
 `,
-    technologies: ["Python", "Django", "Django Rest Framework", "Celery", "SQL Server", "HTML", "CSS", "JavaScript", "jQuery"],
+    technologies: ["Python", "Django", "Django Rest Framework", "Celery", "SQL Server", "ReactJS", ".NET MVC", ".NET Web API" ]
   },
   {
     year: "May 2023 - April 2024",
-    role: "Freelance Web Developer",
-    company: "Local Book Shop Owner",
+    role: "Full Stack Developer",
+    company: "Freelance",
     description: `Successfully deployed Fully Functional E-commerce Website for purchasing local books. 
 *Integrated Payment Gateway and Automated Email Notification System for users 
 *Home Delivery or Pickup from the Nearest Store options are available. 
@@ -63,7 +62,7 @@ of sale for regular users and also implemented custom coupon system.
 *Custom Admin Panel : Management of books, coupons, dealers, users, courier’s services.  
 *Deployed website on AWS EC2 using Nginx Web Server and Ubuntu OS and Automated Deployment using 
 GitHub Actions.`,
-    technologies: ["Django","Python", "Celery", "Celery Beat","Redis", "AWS EC2", "Nginx", "Github Actions", "HTML", "CSS", "JavaScript", "SQLite3"],
+    technologies: ["Django","Python", "Celery", "Celery Beat","Redis", "AWS EC2", "Nginx", "Github Actions", "HTML", "CSS", "JavaScript", "Sql Server"],
     liveLink:"https://bookstore.tejasgodse.tech/",
     githubLink:"https://github.com/tejasgodse24/BookStoreEcommerce"
   },
