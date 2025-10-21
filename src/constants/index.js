@@ -18,14 +18,20 @@ export const EXPERIENCES = [
     year: "Jun 2025 - Present",
     role: "Junior Python Developer",
     company: "Vibtree",
-    description: `Designed and maintained REST APIs for Voice AI SaaS platform.
-*	Integrated Stripe Billing API for dynamic plan and price creation, autopay and subscription lifecycle management.
-*	Refactored the backend to FastAPI, improving performance and modularity across microservices. 
-*	Developed RAG-enabled AI retrieval systems with LlamaIndex and Pinecone for context-aware knowledge grounding in voice applications.
-*	Developed voice intelligence pipelines with LiveKit, Deepgram (STT), ElevenLabs (TTS), and OpenAI GPT-4o-mini, enabling natural, real-time conversational AI experiences. 
-*	Integrated multiple external platforms like Cal.com, N8N, Telnyx etc for automated workflows.
-*	Developed and deployed multiple FastAPI microservices on AWS EC2, with Nginx, Uvicorn, and Dockerized CI/CD pipelines using GitHub Actions.
-*	Developed Web App using Livekit SDK(ReactJS) to enable real-time communication and voice agent interaction.
+    description: `
+    Designed and maintained REST APIs for Voice AI SaaS platform. 
+*Integrated Stripe Billing API for dynamic plan and price creation, autopay and subscription lifecycle management. 
+*Refactored the backend to FastAPI, improving performance and modularity across microservices.  
+*Developed RAG-enabled AI retrieval systems with LlamaIndex and Vector DBs(Pinecone, Weaviate etc.) for 
+context-aware knowledge grounding in voice applications. 
+*Developed voice intelligence pipelines with LiveKit, Deepgram (STT), ElevenLabs (TTS), and OpenAI (LLM), 
+enabling natural, real-time conversational Voice AI experiences.  
+*Integrated multiple external platforms like Cal.com, N8N, Telnyx etc for automated workflows. 
+*Developed and deployed multiple FastAPI microservices on AWS EC2, with Nginx, Uvicorn, and Dockerized 
+CI/CD pipelines using GitHub Actions. 
+*Developed Web App using Livekit SDK(ReactJS) to enable real-time communication and voice agent interaction. 
+*Tech Stack: Python, FastAPI, Django, DRF, Celery, PostgreSQL, ReactJS, LlamaIndex, LiveKit, AWS (EC2, S3), 
+Nginx, Docker, GitHub Actions.
 `,
     technologies: ["Python", "FastAPI", "Django", "Django Rest Framework", "Celery", "PostgreSQL", "ReactJS", "Docker", "GitHub Actions", "Livekit", "Pinecone", "LlamaIndex" ],
   },

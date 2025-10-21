@@ -51,7 +51,7 @@ const Hero = () => {
 
                 <a
                 className="cursor-pointer my-4 bg-gradient-to-r from-purple-900 to-purple-500 px-4 py-4 rounded-md text-white font-normal text-xl transition-all duration-300 ease-in-out transform hover:from-purple-700 hover:to-purple-400 hover:shadow-lg"
-                href="https://drive.google.com/file/d/1ZpukTL9CNzYvKr1LNmPXayBMURaHzgHv/view?usp=sharing"
+                href="https://drive.google.com/file/d/1cw9ov3AZHgyqaVYb0G_--SSOuMcbknGL/view?usp=sharing"
                 target="_blank"
                 >
                 Download Resume
